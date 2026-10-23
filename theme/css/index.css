@@ -58,7 +58,7 @@ a.nav_item[title=Donate] {
 
 .nav_brand img,
 .nav_brand .logo {
-  height: 3.05rem;
+  height: 3.75rem;
   max-width: 13.25rem;
   object-fit: contain;
   width: auto;
@@ -273,10 +273,17 @@ main.main_with_submenu {
   gap: 0.18rem;
 }
 
-.footer_identity strong {
-  color: #ffffff;
-  font-size: 1rem;
-  letter-spacing: -0.01em;
+.footer_brand {
+  display: inline-flex;
+  justify-self: start;
+  margin-bottom: 0.55rem;
+}
+
+.footer_brand img {
+  display: block;
+  height: auto;
+  width: 12.5rem;
+  max-width: 100%;
 }
 
 .footer_identity span {
@@ -1576,7 +1583,7 @@ main.main_with_submenu {
 
   .nav_brand img,
   .nav_brand .logo {
-    height: 2.55rem;
+    height: 3.75rem;
     max-width: 11rem;
   }
 
